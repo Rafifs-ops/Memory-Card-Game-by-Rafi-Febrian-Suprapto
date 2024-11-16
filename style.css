@@ -87,3 +87,13 @@ h1 {
 footer {
     color: black;
 }
+
+@media screen and (max-width: 600px) { 
+    .game-board {
+        width: 35%;
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 30%;
+    }
