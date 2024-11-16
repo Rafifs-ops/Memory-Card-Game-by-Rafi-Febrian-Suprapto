@@ -4,11 +4,13 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(45deg, red, blue, yellow, purple);
+    background-size: cover; 
+    background-position: center; 
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-}
+    height: 100%;
 
 .container {
     display: flex;
@@ -102,8 +104,14 @@ footer {
 }
 
 @media (max-width: 600px) {
+
+    body {
+        background: 100%;
+    }
+
     h1 {
-        font-size: 1.2em; /* Smaller title for small screens */
+        font-size: 1.2em; 
+        text-align: center;
     }
 
     .game-board {
