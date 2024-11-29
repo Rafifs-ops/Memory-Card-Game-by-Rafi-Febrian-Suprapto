@@ -102,11 +102,12 @@ footer {
 
 @media (max-width: 480px) {
     .game-board {
-        grid-template-columns: repeat(2, 100px); /
+        grid-template-columns: repeat(3, 100px); 
     }
 
     h1 {
         font-size: 20px; 
+        text-align: center;
     }
 
     h2 {
@@ -115,6 +116,7 @@ footer {
 
     footer {
         font-size: 12px;
+        margin-bottom: 5px;
     }
 
     .card {
@@ -122,8 +124,4 @@ footer {
         height: 80px;
         font-size: 18px; 
     }
-    
-    .game-board {
-        size: 60%;
-    }  
 }
