@@ -90,16 +90,39 @@ footer {
     font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
+    .game-board {
+        grid-template-columns: repeat(3, 100px); /* 3 kolom di perangkat lebih kecil */
+    }
+
     body {
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: linear-gradient(45deg, red, blue, yellow); 
+    }
+}
+
+@media (max-width: 480px) {
+    .game-board {
+        grid-template-columns: repeat(2, 100px); /
     }
 
     h1 {
-        font-size: 40%;
+        font-size: 20px; 
     }
 
+    h2 {
+        font-size: 18px; 
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .card {
+        width: 80px;  
+        height: 80px;
+        font-size: 18px; 
+    }
+}
     .game-board {
         size: 60%;
     }  
