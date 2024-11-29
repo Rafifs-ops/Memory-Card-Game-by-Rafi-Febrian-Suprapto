@@ -104,7 +104,7 @@ footer {
 
 @media (max-width: 480px) {
     .game-board {
-        grid-template-columns: repeat(3, 100px); 
+        grid-template-columns: repeat(4, 80px); 
     }
 
     h1 {
