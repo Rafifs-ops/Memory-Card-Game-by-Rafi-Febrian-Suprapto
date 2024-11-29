@@ -89,3 +89,18 @@ footer {
     margin-top: 1px;
     font-size: 14px;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        font-size: 40%;
+    }
+
+    .game-board {
+        size: 60%;
+    }  
+}
